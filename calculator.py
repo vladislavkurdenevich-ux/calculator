@@ -4,10 +4,11 @@ def main():
     print('Welcome to Calculator!')
 
 def add(a, b):
+    print(f"Adding {a} + {b}")
     return a + b
 
 def subtract(a, b):
-    print(f"Subtracting {b} from {a}")  # <-- ЭТА НОВАЯ СТРОКА
+    print(f"Subtracting {b} from {a}")
     return a - b
 
 def multiply(a, b):
